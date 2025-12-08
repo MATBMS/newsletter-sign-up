@@ -21,6 +21,7 @@
 
 /* TEXT PRESETS */
 /* Text Preset 1 - Roboto (Mobile) - 40px - 100% Line Height - 0px Line Spacing */
+h1,
 .text-preset-1-mobile {
   font-family: var(--font-family-bold);
   color: var(--color-slate-900);
@@ -41,6 +42,8 @@
 }
 
 /* Text Preset 2 - Roboto (Regular) - 16px - 150% Line Height - 0px Line Spacing */
+p,
+li,
 .text-preset-2-regular {
   font-family: var(--font-family-regular);
   color: var(--color-slate-900);
@@ -67,6 +70,7 @@
 @media (min-width: 768px) {
 
   /* Text Preset 1 - Roboto - 56px - 100% Line Height - 0px Line Spacing */
+  h1,
   .text-preset-1 {
     font-family: var(--font-family-bold);
     color: var(--color-slate-900);
