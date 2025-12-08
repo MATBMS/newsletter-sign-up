@@ -1,0 +1,81 @@
+/* IMPORT */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url('../../fonts/Roboto-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* VARIABLES */
+
+:root {
+  --font-family-regular: 'Roboto', sans-serif;
+  --font-family-bold: 'Roboto Bold', sans-serif;
+}
+
+/* TEXT PRESETS */
+/* Text Preset 1 - Roboto (Mobile) - 40px - 100% Line Height - 0px Line Spacing */
+.text-preset-1-mobile {
+  font-family: var(--font-family-bold);
+  color: var(--color-slate-900);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+/* Text Preset 2 - Roboto (Bold) - 16px - 150% Line Height - 0px Line Spacing */
+.text-preset-2-bold {
+  font-family: var(--font-family-bold);
+  color: var(--color-slate-900);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+/* Text Preset 2 - Roboto (Regular) - 16px - 150% Line Height - 0px Line Spacing */
+.text-preset-2-regular {
+  font-family: var(--font-family-regular);
+  color: var(--color-slate-900);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* Text Preset 3 - Roboto - 12px - 150% Line Height - 0px Line Spacing */
+.text-preset-3 {
+  font-family: var(--font-family-regular);
+  color: var(--color-slate-900);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+/* SMALL MOBILE (375px and up) */
+@media (min-width: 375px) {}
+
+/* TABLET (768px and up) */
+@media (min-width: 768px) {
+
+  /* Text Preset 1 - Roboto - 56px - 100% Line Height - 0px Line Spacing */
+  .text-preset-1 {
+    font-family: var(--font-family-bold);
+    color: var(--color-slate-900);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+  }
+}
+
+/* DESKTOP (1440px and up) */
+@media (min-width: 1440px) {}
