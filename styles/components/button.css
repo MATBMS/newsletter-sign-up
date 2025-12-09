@@ -21,7 +21,9 @@ button,
 }
 
 button:hover,
-.btn:hover {
+button:active,
+.btn:hover,
+.btn:active {
   border-radius: 8px;
   background: var(--color-gradient);
   box-shadow: 0 16px 32px 0 rgba(255, 97, 85, 0.50);
