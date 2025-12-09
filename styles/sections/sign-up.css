@@ -1,7 +1,8 @@
 /* sign up section */
 #sign-up {
+  /* layout */
+  width: 100%;
   display: flex;
-  width: 375px;
   flex-direction: column-reverse;
   align-items: center;
   gap: var(--spacing-500);
@@ -14,7 +15,8 @@
   flex-direction: column;
   align-items: flex-start;
   gap: var(--spacing-500);
-  width: calc(327 / 375 * 100vw)
+  width: calc(327 / 375 * 100vw);
+  max-width: 327px;
 }
 
 .sign-up-content {
@@ -42,4 +44,31 @@
 /* illustration */
 .illustration-sign-up {
   width: 100%;
+}
+
+/* TABLET (768px and up) */
+@media (min-width: 768px) {
+  #sign-up {
+    width: calc(608 / 768 * 100vw);
+    max-width: 840px;
+    padding: var(--spacing-500);
+    /* style */
+    background-color: var(--color-white);
+    border-radius: 36px;
+    box-shadow: 0 15px 60px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .sign-up-container {
+    width: 100%;
+    max-width: 376px;
+    gap: var(--spacing-300);
+  }
+}
+
+/* DESKTOP (1440px and up) */
+@media (min-width: 1440px) {
+  #sign-up {
+    flex-direction: row;
+    padding: var(--spacing-400);
+  }
 }

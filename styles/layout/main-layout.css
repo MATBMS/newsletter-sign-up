@@ -1,4 +1,18 @@
 main {
   width: 100vw;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* TABLET (768px and up) */
+@media (min-width: 768px) {
+  main {
+    padding: 73px 80px;
+    background: var(--color-blue-700);
+  }
+}
+
+/* DESKTOP (1440px and up) */
+@media (min-width: 1440px) {}
