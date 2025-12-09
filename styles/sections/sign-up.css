@@ -1,7 +1,45 @@
+/* sign up section */
 #sign-up {
   display: flex;
   width: 375px;
   flex-direction: column-reverse;
   align-items: center;
   gap: var(--spacing-500);
+  margin-bottom: 44px;
+}
+
+.sign-up-container {
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-500);
+  width: calc(327 / 375 * 100vw)
+}
+
+.sign-up-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-300);
+}
+
+.sign-up-content ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-100);
+}
+
+.update-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+/* illustration */
+.illustration-sign-up {
+  width: 100%;
 }

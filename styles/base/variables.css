@@ -11,8 +11,9 @@
   --color-slate-900: #133041;
   /* red */
   --color-red: #FF6155;
+  --color-red-100: #FFE7E6;
   /* gradient from #FF6A3A to #FF527B */
-  --color-gradient: linear-gradient(to right, #FF6A3A, #FF527B);
+  --color-gradient: linear-gradient(90deg, #FF6A3A 0%, #FF527B 100%);
 }
 
 /* SPACING */

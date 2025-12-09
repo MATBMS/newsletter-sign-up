@@ -1,8 +1,31 @@
+/* success section */
 #success {
   display: flex;
-  width: 375px;
+  width: 100vw;
   padding: 149px 24px 70px 24px;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+  min-height: 70px;
+}
+
+/* success message */
+.success-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-400);
+  margin-bottom: 263px;
+}
+
+/* email */
+span.email {
+  font-family: var(--font-family-bold);
+  color: var(--colors-blue-800);
+}
+
+/* logo */
+.icon-success {
+  width: 64px;
+  height: 64px;
 }

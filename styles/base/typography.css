@@ -54,6 +54,7 @@ li,
 }
 
 /* Text Preset 3 - Roboto - 12px - 150% Line Height - 0px Line Spacing */
+label,
 .text-preset-3 {
   font-family: var(--font-family-regular);
   color: var(--color-slate-900);
