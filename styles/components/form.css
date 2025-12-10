@@ -59,7 +59,7 @@ input::placeholder {
   color: var(--color-red);
 }
 
-.error-message {
+#error-message {
   /* typography */
   font-family: var(--font-family-regular);
   font-size: 12px;
@@ -79,6 +79,3 @@ input::placeholder {
     gap: var(--spacing-200);
   }
 }
-
-/* DESKTOP (1440px and up) */
-@media (min-width: 1440px) {}
