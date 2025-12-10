@@ -21,7 +21,7 @@
 /* EMAIL */
 span.email {
   font-family: var(--font-family-bold);
-  color: var(--colors-blue-800);
+  color: var(--color-blue-800);
 }
 
 /* LOGO */

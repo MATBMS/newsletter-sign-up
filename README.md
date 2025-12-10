@@ -16,3 +16,5 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 - HTML, CSS, JavaScript
 
 ## What I learned
+
+I learned how to use `localStorage` to store and retrieve data in the browser. In the sign-up form, I save the user's email with `localStorage.setItem('userEmail', emailValue)` after validation. Then on the success page, I retrieve it using `localStorage.getItem('userEmail')` to display a personalized message.
